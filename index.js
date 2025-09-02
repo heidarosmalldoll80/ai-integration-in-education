@@ -6,12 +6,12 @@ const PORT = process.env.PORT || 3000;
 app.use(express.json());
 app.use(express.static('public'));
 
-// API Endpunkte
+// API Endpoints
 app.get('/api/students', (req, res) => {
-    // Hier würden Sie die Logik zur Rückgabe der Schülerdaten implementieren
+    // Here you would implement the logic to return the student data
     res.send([]);
 });
 
 app.listen(PORT, () => {
-    console.log(`Server läuft auf http://localhost:${PORT}`);
+    console.log(`Server running at http://localhost:${PORT}`);
 });
