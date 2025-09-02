@@ -9,7 +9,7 @@ app.use(express.static('public'));
 // API Endpoints
 app.get('/api/students', (req, res) => {
     // Here you would implement the logic to return the student data
-    res.send([]);
+    res.status(200).send({ message: 'Student data retrieved successfully', data: [] });
 });
 
 app.listen(PORT, () => {
