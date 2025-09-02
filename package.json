@@ -1,7 +1,7 @@
 {
   "name": "ai-integration-in-education",
   "version": "1.0.0",
-  "description": "KI-gestütztes System zur Erstellung personalisierter Lernpläne",
+  "description": "AI-assisted system for creating personalized learning plans",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
