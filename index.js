@@ -11,7 +11,7 @@ app.use(express.static('public'));
 // Error Handling Middleware
 app.use((err, req, res, next) => {
     console.error(err.stack);
-    res.status(500).send({ message: 'Something went wrong!', error: err.message });
+    res.status(500).send({ message: 'Internal Server Error', error: err.message });
 });
 
 // API Endpoints
