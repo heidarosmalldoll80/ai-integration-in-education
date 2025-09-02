@@ -1,6 +1,6 @@
 {
   "name": "ai-integration-in-education",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "AI-assisted system for creating personalized learning plans",
   "main": "index.js",
   "scripts": {
